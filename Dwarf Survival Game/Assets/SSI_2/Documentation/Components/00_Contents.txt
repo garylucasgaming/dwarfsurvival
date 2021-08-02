@@ -1,0 +1,21 @@
+This set of files documents all of the components you'll need to know about and the key functions they provide.
+
+01 - The Inventory (and it's variables) - This covers the SSI2_InventoryScript component only
+	a - Events
+	b - Grids
+	c - Description Panel
+	d - Dropping Items
+	e - Key Functions
+
+02 - Grids - This covers the SSI2_GridScript and SSI2_GridProperties components
+	a - Grid Information
+	b - Grid Expansion
+	c - Grid Boundaries
+	d - SSI2_GridProperties
+
+03 - Items - This covers the SSI2_ItemScript component
+	a - Prefabs
+
+04 - Global Values - This covers the SSI2_GlobalVariables component
+
+05 - The Camera - This covers the SSI2_CameraScript component

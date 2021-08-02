@@ -1,0 +1,5 @@
+An inventory grid is an object which contains its own inventory of items and has a set of defined values dictating the size, whether or not it can expand, and additional UI information about it.
+
+This script handles adding items, transferring items, and dropping items to and from the grid specifically, while the SSI2_InventoryScript component handles communications between them.
+
+The SSI2_GridProperties script defines how a grid will be created should it be called with the CreateGrid function in the SSI2_InventoryScript, which is useful for creating 'Backpack' items that add another grid to the Inventory

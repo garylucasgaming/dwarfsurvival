@@ -1,0 +1,10 @@
+Hello! Thanks for purchasing Surr's Simple Inventory 2!
+This documentation series is here to help you figure out the ins and outs of SSi_2 and to get you started!
+
+First things first, we may need to set a few things up. Fortunately almost everything has been set up for you in the Sample Scene provided, you just need to add a layer.
+The layer in question (For example, "Item") is needed so that the Inventory Handler is able to detect items effectively, as items should be assigned to that layer (and is also good if you want to disable 
+collisions between items)
+
+I will be creating a series of video tutorials as well to help you figure out how the system works, they will be on my youtube channel: https://www.youtube.com/channel/UCesiaNX8UuhVjYWF_gjiQ8w
+
+You can also visit the official SSi_2 discord server if you require assistance with the link: https://discord.gg/CUm8ugYr2Z

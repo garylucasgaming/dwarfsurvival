@@ -1,0 +1,7 @@
+This section of the SSI2_GridScript dictates the name of the grid, the dimensions and if it can be removed from the main Inventory.
+	- Grid Name: The name of the grid
+	- Grid Removeable: Can we remove this grid from the system? 
+	- Column & Row Count: Defines the dimensions of the grid
+	- Accepted Items: The list of tags or item names that the grid can accept, leave empty to accept all items
+
+The Name Text and Remove Button variables are just used to create the headers and adds a button to remove the grid should it be possible to remove it.

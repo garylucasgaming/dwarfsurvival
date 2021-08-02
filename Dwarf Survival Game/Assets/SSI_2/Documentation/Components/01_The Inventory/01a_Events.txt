@@ -1,0 +1,25 @@
+The Events system is one of the many new additions to SSi_2, and one of the most powerful, allowing for easy integration into your own projects by dragging and dropping a few objects and values in.
+
+There are 11 different types of Events which you can utilise in SSi_2:
+Adding an Item (happens during an item addition)
+Item Added (happens after an item addition, as does Item Rejected)
+Item Rejected
+Transferring an Item (happens during an item addition)
+Item Transferred (happens after an item addition, as does Transfer Failed)
+Transfer Failed
+Item Dropped
+Item Destroyed
+Item Equipped
+Item Dequipped
+Item Overlaps <- See 01f for more
+
+To create an event in one of these lists, simply expand it, add an item, then configure the values as desired, giving the event a name, the message/function it will call, the object you want to send the message to, and the type of data the message should receive, which can be:
+String, Integer, Float/Decimal, Bool
+The Data of the Item (the SSI2_ItemScript component)
+
+There is another boolean value called Include Quantity? which dictates whether or not the parameter sent also includes the amount of an item (say, you're destroying 15 of an item), this does not send
+both the data in question and an int separately, due to the way SendMessage works, it had to be set as an object[], where the first element is the object sent (the integer, float, item data etc)
+and the second is the quantity.
+To easily parse this data into something readable, for example, using an SSI2_ItemScript as the first element. Write something like:
+SSI2_ItemScript itemData = data[0] as SSI2_ItemScript;
+int amount = (int)data[1];

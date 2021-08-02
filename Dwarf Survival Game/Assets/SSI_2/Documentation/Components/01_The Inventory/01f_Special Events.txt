@@ -1,0 +1,6 @@
+Unique events in SSi_2 are those that take specific parameters and pass them on, rather than determined by the user.
+
+Item Overlap Events(Parameters - [SSi2_ItemScript item1, SSi2_ItemScript item2] as object[])
+	When an item is no longer being dragged and has been placed over another item, these events are called with the parameters defined above.
+	Item 1 is the item being dragged.
+	Item 2 is the item that is already in the occupied slot.

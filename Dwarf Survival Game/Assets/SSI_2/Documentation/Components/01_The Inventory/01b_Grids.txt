@@ -1,0 +1,5 @@
+The Inventory Grids section of the script is mostly public for accessibility and debug reasons, the only values that should really be changed are Grid Holder and Grid Prefab, which are the objects that hold the grids and the objects that the grids are based on respectively.
+
+If you wish to have a pre-defined grid in the game however, you should add the Grid object to the Grids list (sample prefabs with and without backpack items assigned to them are included in the Prefabs folder)
+
+The Dragging Object Around boolean is not to be set to True in the scene, as it may mess up the system, keep it as False.

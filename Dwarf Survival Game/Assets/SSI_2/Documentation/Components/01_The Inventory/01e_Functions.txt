@@ -1,0 +1,43 @@
+Here are the key functions that you may wish to access in runtime for the SSI2_InventoryScript component:
+
+EquipItem(item : SSI2_UIItemScript)
+	Equips a specific item
+
+DropAllItems()
+	Does exactly as it says on the tin, drops every item in every grid.
+
+DropSpecificItem (item : SSI2_UIItemScript, destroyItem : bool)
+	This tells the InventoryScript to drop the item, and destroy it (depending on if destroyItem or droppingDestroysItems are True, if they are both False it won't be destroyed)
+
+DropSpecificItem (item : SSI2_ItemScript, destroyItem : bool)
+	Same as the above DropSpecificItem, except this one refers to the SSI2_ItemScript component, rather than the SSI2_UIItemScript
+
+DropEquippedItem(destroyItem : bool)
+	Drops the currently equipped item, and destroy it (depending on if destroyItem or droppingDestroysItems are True, if they are both False it won't be destroyed)
+
+DropItemsOfType(tag : string, quantity : int, ignoreStacks : bool)
+	This tells the inventory to look for and drop [quantity] amount of items with the Tag [tag], if ignoreStacks is set to False, stacks of items are considered as just 1 item, whereas if it is True, a stack of 12 items will be considered as 12 items
+If you wish to drop ALL items of type [tag], set quantity to 0.
+
+DropItemsOfName(name : string, quantity : int, ignoreStacks : bool)
+	Similar to DropItemsOfType, but this time searching for the items whose names are the same as [name]
+
+FetchItemsOfType(tag : string, quantity : int, ignoreStacks : bool, output 	List<SSI2_UIItemScript>, output List<int>)
+	Similar to DropItemsOfType, but instead of dropping them from the inventory, it simply returns the list of valid items and how much of each item there is.
+
+FetchItemsOfType(name : string, quantity : int, ignoreStacks : bool, output List<SSI2_UIItemScript>, output List<int>)
+	Similar to FetchItemsOfType, but uses the item's name
+
+InsertItem(item : Transform)
+	Adds the item to the grid, useful for if you wish to add objects to the grids via code.
+
+	NOTE: When inserting items at the beginning of a scene, put it in the Start function, not the Awake function.
+
+SnatchItem(item : SSI2_ItemScript)
+	Takes the item from it's current grid, and adds it to the first available spot. Good for moving items out of grids that are usually inaccessible.
+
+CreateGrid(grid : SSI2_GridProperties, createdFromItem : bool)
+	Creates a grid based on the properties of [grid], if createdFromItem is True, it will bind the item that holds the grid's properties to the grid (binding a backpack item to the grid, for example)
+
+RemoveGrid(grid : SSI2_GridScript)
+	Removes [grid] and drops all of its items

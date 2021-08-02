@@ -1,0 +1,5 @@
+This section of the SSI2_CameraScript handles raycasting of objects and item detection.
+	- Raycast Point: The point with which raycasts will be conducted from, if left blank it will be set to the camera
+	- Raycast Length: How long the ray should be
+	- Raycast Layermask: The layers the raycast should detect, I recommend making a new Item layer and using that
+	- Prompt Text: The text that prompts the player to pick an item up when it is detected, no need to change this one

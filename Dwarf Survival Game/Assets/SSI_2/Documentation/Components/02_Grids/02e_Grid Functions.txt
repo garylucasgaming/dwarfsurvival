@@ -1,0 +1,11 @@
+Here are the key functions that you may wish to access in runtime for the SSI2_GridScript component:
+
+SnatchItem(item : SSI2_ItemScript, out result : bool):
+	Take an existing item in your inventory and move it to this grid, if it does not fit, return it to it's original position.
+
+	When the transfer begins, it calls the SSI2_InventoryScript's Transferring Item events.
+	When the transfer succeeds, it calls the SSI2_InventoryScript's Transferred Item events.
+	When the transfer fails, it calls the SSI2_InventoryScript's Fail Transfer events.
+
+SnatchFrom:
+	Gives the first item in this grid's inventory back to the handler to place in the first available space.

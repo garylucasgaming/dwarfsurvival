@@ -1,0 +1,13 @@
+This script simply covers the properties of the Item object, you place this script in a transform that you wish to use as the item.
+	-Equippable: Can this item be equipped?
+	-Item Name: The name of the item
+	-Item Texture: The image to use as the icon of the item once it's in the inventory
+	-Width/Height: The dimensions of the item
+	- Item Description: Flavour text about the item
+	- Item Tag: What type of item is it?
+	- Max Stack: How many of these items can stack atop each other? (Default = 1, setting this to -1 it infinite)
+	- Quantity: How many of these items are there in this item? (Default = 1)
+	- Can Be Empty: Can I hold 0 of this item? (Default = False)
+	- Drop Entire Stack?: When dropping this item, does it always drop everything? (Default = False)
+	- UI Assigned To: The UI object the item is assigned to when picked up, don't change this in the editor
+	- Degrees of Rotation: Primarily visual, dictates whether or not the item only rotates to 0 or 90 degrees (Two), or 0, 90, 180 and 270 (Four)

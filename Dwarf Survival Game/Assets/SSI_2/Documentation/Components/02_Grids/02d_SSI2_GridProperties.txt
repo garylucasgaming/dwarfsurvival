@@ -1,0 +1,8 @@
+This script is used to create a new grid in run-time, say, you have a backpack which you can use, you'll need an SSI2_GridProperties script to refer to when you call the SSI2_InventoryScript's
+CreateGrid function. If you wish to bind the backpack to the grid itself, you'll need to add the GridProperties script to an object with the SSI2_ItemScript component, and set the createdFromItem boolean
+in the CreateGrid function parameters to True
+	- gridName: The name of the grid
+	- columnCount/rowCount: The dimensions of the grid
+	- expanding: Is this an expanding grid?
+	- removeable: Can we remove this grid once it's added?
+	- acceptedItems: The list of item tags and names that the grid can accept, leave empty to allow the grid to accept all items

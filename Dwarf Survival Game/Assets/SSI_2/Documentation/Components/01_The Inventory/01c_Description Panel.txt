@@ -1,0 +1,3 @@
+The Description Panel section handles the variables necessary for the Description Panel, which appears when you (by default) Left Click on an item in the inventory, giving you the name of the item, a picture, the description, as well as buttons to Equip, Drop or Destroy depending on the settings of both the item and the panel itself.
+
+The only value that may need changing is the Desc Offset variable, which just adjusts how far away/close it should be to the item it's describing (e.g an X value of 100 will move it 100 units away)

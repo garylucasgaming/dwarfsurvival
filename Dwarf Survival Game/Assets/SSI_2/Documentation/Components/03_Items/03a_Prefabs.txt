@@ -1,0 +1,5 @@
+Inside the prefabs folder are 2 prefabs related to items. The SSI2_Inventory Object prefab (The block that appears in the UI) and SSI2 Sample Item (The physical object that you pick up)
+This section will look at the former, as it contains a few things you may wish to edit, there isn't too much you have to edit.
+
+The object itself has an Image component in it with a transparent white colour, to act as the border/bounds of the item itself and to show how much space it occupies, you can change this or hide it.
+The quantityText object is the text that shows how much of an item there are in a stack, you may wish to change the position of it.

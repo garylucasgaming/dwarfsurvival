@@ -1,0 +1,4 @@
+This section of the SSI2_GridScript dictates auto-expansion of grids, when an object is picked up and placed in the grid, if it does not fit naturally, the grid will expand to suit it
+if the grid is marked as Expanding
+
+The target width to height ratio is the value at which the height will increase when the width is greater than or equal to X times the height, the expansions will prioritise width otherwise

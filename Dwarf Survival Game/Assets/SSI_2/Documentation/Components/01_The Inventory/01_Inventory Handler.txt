@@ -1,0 +1,5 @@
+The inventory handler (labelled SSI2 Inventory Handler in the SampleScene) handles all of the possible inventory operations, from grid creation to item addition to item removal etc using a script named SSI2_InventoryScript
+
+This script also handles the Events system, which sends functions to and from objects defined by you.
+
+There are also a few other sections of the script (Inventory Grids, Description Panel, Dropping Items, Dropping Quantities of Items), it's not necessary to edit these, but some of these values can be tweaked (those that are recommended to be changed will be documented in the sub-chapters)

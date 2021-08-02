@@ -1,0 +1,10 @@
+This section of the Documentation details the SampleScene provided in the 1.2 version of the asset pack, explaining the components and how they're utilised.
+
+Contains:
+	- Three grids contained in the Inventory Handler, one with an item bound to it and a blacklist for Generic items, one regular grid and one "Equip" grid, which takes items into it when they
+	are equipped
+	- A generic cube (coloured green) that is inserted into the Inventory on startup via code to demonstrate the new InsertItem function
+	- An additional equipment system, which has a hotkey bound to the "Equip" grid, pressing said key will equip the item inside the grid
+	- A Backpack item which can be equipped and then used to add another grid to the inventory
+	- Two coloured cubes (red and blue) which can be combined in a simple crafting system, outputting a purple cube.
+	- A set of small 1x1 cubes which can be deposited into a yellow 'Holder' cube, using the sample crafting system.

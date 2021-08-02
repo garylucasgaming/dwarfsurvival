@@ -1,0 +1,10 @@
+This section of the Documentation details the SampleScene provided in the asset pack, explaining the components and how they're utilised.
+
+Contains:
+	- A premade first person controller with simple mouselook and movement
+	- An Inventory Handler object which contains the SSI2_InventoryScript component and the SSI2_GlobalVariables component, already containing the necessary UI elements to support the grids.
+	- Two grids contained in the Inventory Handler, one with an item bound to it and one that does not
+	- A placeholder notification system informing the player about items they've interacted with, as a showcase of the Events system.
+	- A placeholder equipment system (all it does is show a cube and change its size depending on the size of the object that has been equipped)
+	- Simple Generic items that can be equipped, of various sizes, one type being stackable and in quantities of 4
+	- A Backpack item which can be equipped and then used to add another grid to the inventory

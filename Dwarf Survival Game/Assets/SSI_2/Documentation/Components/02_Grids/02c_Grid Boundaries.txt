@@ -1,0 +1,7 @@
+The only values that should be edited in this section are the Offset values. The bounds value is used by the SSI2_InventoryScript to determine the boundaries of the grid where the inventory
+itself is kept.
+	- xOffset: How offset to the right/left should the actual grid be?
+	- yOffset: How offset up/down should the actual grid be?
+	- yGap: How much empty space do you want at the bottom of the grid? (Good for spacing if you need it)
+	- removeButtonXOffset: How offset to the right/left of the Grid's Heading should the Drop button be?
+	- removeButtonYOffset: How offset up/down of the Grid's Heading should the Drop button be?

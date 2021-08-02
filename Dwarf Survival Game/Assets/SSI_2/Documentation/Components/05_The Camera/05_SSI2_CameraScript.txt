@@ -1,0 +1,4 @@
+This script is contained in the Main Camera object in the Sample Scene, it manages item detection and the in-game Description Panel that shows up when looking at an item
+	-Player Character: The object that the player moves around in, not necessary to set at the moment.
+	-Inventory Handler: The SSI2_InventoryScript component
+	-Canv: The Inventory Handler's Canvas component

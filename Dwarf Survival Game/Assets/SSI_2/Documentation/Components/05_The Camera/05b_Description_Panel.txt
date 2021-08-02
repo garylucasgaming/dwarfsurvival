@@ -1,0 +1,2 @@
+This section regards the In-Game description panel, which appears when you look at an item in the game world and provides details about it:
+	- Show Description On Raycast: If True, show the panel when looking at an item

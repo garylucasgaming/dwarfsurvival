@@ -1,0 +1,9 @@
+Dropping items has been split into 2 sections, Dropping Items (in general) and Dropping Quantities of Items (if you have a stack, a dialog box will appear asking how much you want to drop/split)
+
+Unless you wish to redesign the dialog box from the ground up with new components, keep the values in the Dropping Quantities of Items section the same.
+
+Dropping Destroys Items is fairly self explanatory, if it's True, an item will be destroyed rather than dropped to the ground
+The Drop Point determines the object from which the dropped items will appear, in the Sample Scene it is set to the Main Camera
+Drop Velocity Local and Variance dictates the speed at which the dropped objects move
+Local - How much it moves relative to the direction the Drop Point is facing, this is fixed in runtime
+Variance - How much the velocity may deviate (Example: A Local Velocity with x-value 1 and Variance with x-value 0.25 may have an x-velocity between 0.75 and 1.25)

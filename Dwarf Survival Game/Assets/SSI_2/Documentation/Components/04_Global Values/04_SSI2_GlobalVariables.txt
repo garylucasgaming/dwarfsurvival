@@ -1,0 +1,8 @@
+This script contains the necessary control variables used in SSi2, it's best that each
+reference to controls in your scripts refer to the object that has the SSI2_GlobalVariables component.
+It currently contains 5 variables and in the Sample Scene, it is located in the SSI2 Inventory Handler.
+	- Preview Key: The key to press to preview items (Default = Mouse 0)
+	- Drag Key: The key to press to drag items (Default = Mouse 1)
+	- Use Key: The key to press to pick up items (Default = E)
+	- Rotate Item Key: The key to press to rotate items while dragging them (Default = R)
+	- Inventory Key: The key to press to open/close the inventory (Default = Tab)
